@@ -1,0 +1,14 @@
+global:
+ message: Welcome to Microservices global configuration
+ Logging:
+    level1:
+       root: INFO
+management :
+   endpoints:
+      web: 
+        exposure:
+          include: heath,info, refresh
+  endpoint:
+      health:
+        show details : always
+      
